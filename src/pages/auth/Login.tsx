@@ -7,7 +7,6 @@ import { useCookies } from 'react-cookie';
 import toast from 'react-hot-toast';
 import { useNavigate } from 'react-router-dom';
 import { Path } from '../../paths';
-import { SiteLogo } from '../../assets/icons';
 
 const Login = () => {
   const navigate = useNavigate();
