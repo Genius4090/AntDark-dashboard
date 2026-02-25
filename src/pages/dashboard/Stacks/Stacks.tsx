@@ -18,6 +18,7 @@ const Stacks = () => {
   
    const {data:stacks = [],isLoading} = useQuery<StackType[]>({
     queryKey: ["stacks",name],
+    staleTime: 10 * 60 * 1000,
     queryFn:() => instance().get("/stacks",{
       headers: {
         Authorization: `Bearer ${cookie.token}`
