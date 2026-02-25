@@ -81,8 +81,9 @@ const Login = () => {
             placeholder="email address"
             size="large"
             allowClear
-            className="py-2! "
+            className="py-2! bg-[#1C1C1C]! border-[#383838]! text-white!"
           />
+   
         </Form.Item>
 
         {/* Password field */}
@@ -95,7 +96,7 @@ const Login = () => {
             placeholder="Password"
             size="large"
             allowClear
-            className="py-2! mt-1"
+            className="py-2! mt-1 bg-[#1C1C1C]! border-[#383838]! text-white!"
           />
         </Form.Item>
 

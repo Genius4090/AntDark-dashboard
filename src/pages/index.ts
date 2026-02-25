@@ -2,7 +2,10 @@ import Login from "./auth/Login"
 import LoginHome from "./auth/LoginHome"
 
 import Home from "./dashboard/Home"
+
 import Stacks from "./dashboard/Stacks/Stacks"
+import StacksCrud from "./dashboard/Stacks/StacksCrud"
+import StacksMore from "./dashboard/Stacks/StacksMore"
 import Groups from "./dashboard/Groups"
 import Teachers from "./dashboard/Teachers"
 import Students from "./dashboard/Students"
@@ -10,4 +13,4 @@ import Rooms from "./dashboard/Rooms"
 import NotFound from "./NotFound"
 
 
-export {LoginHome,Login,Home,Stacks,Groups,Teachers,Students,Rooms,NotFound}
+export {LoginHome,Login,Home,Stacks,Groups,Teachers,Students,Rooms,NotFound,StacksCrud,StacksMore}

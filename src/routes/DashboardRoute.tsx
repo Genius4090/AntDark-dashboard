@@ -6,7 +6,7 @@ import Stacks from "../pages/dashboard/Stacks/Stacks"
 import Students from "../pages/dashboard/Students"
 import Teachers from "../pages/dashboard/Teachers"
 import { Path } from "../paths"
-import { NotFound } from "../pages"
+import { NotFound, StacksCrud, StacksMore } from "../pages"
 import { Header, Sidebar } from "../components"
 
 
@@ -22,6 +22,9 @@ const DashboardRoute = () => {
     { id: 5, path: Path.students, element: <Students/>},
     { id: 6, path: Path.rooms, element: <Rooms/>},
     { id: 7, path: Path.notFound, element: <NotFound/>},
+    { id: 8, path: Path.stacksCreate, element: <StacksCrud/>},
+    { id: 9, path: Path.stacksUpdate, element: <StacksCrud/>},
+    { id: 10, path: Path.stacksMore, element: <StacksMore/>},
     // { id: 7, path: Path.home, element: <Home/>},
     // { id: 8, path: Path.home, element: <Home/>},
     // { id: 9, path: Path.home, element: <Home/>},

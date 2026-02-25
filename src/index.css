@@ -14,5 +14,28 @@
 .container {
   width: 1200px;
   margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
+.ant-card-head-title{
+  color: white;
+}
+
+.ant-card-body {
+  border-top: #383838 1px solid;
+}
+
+
+
+.anticon-close-circle{
+  color: rgba(255, 255, 255, 0.671) !important;
+
+}
+
+.ant-input::placeholder{
+  color: rgba(255, 255, 255, 0.623);
+}
+.anticon{
+  color: rgba(255, 255, 255, 0.733) !important;
+}
